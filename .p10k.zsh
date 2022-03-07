@@ -180,7 +180,7 @@
 
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color.
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=15
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=255
   typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND=210
   # Custom icon.
   # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'
@@ -222,7 +222,7 @@
   typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND=210
   # Color of the anchor directory segments. Anchor segments are never shortened. The first
   # segment is always an anchor.
-  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=15
+  typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND=255
   # Display anchor directory segments in bold.
   typeset -g POWERLEVEL9K_DIR_ANCHOR_BOLD=true
   # Don't shorten directories that contain any of these files. They are anchors.
@@ -507,21 +507,21 @@
   # it will signify success by turning green.
   typeset -g POWERLEVEL9K_STATUS_OK=true
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✔'
-  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=15
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=255
   typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=83
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
   # like this: 1|0.
   typeset -g POWERLEVEL9K_STATUS_OK_PIPE=true
   typeset -g POWERLEVEL9K_STATUS_OK_PIPE_VISUAL_IDENTIFIER_EXPANSION='✔'
-  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=15
+  typeset -g POWERLEVEL9K_STATUS_OK_PIPE_FOREGROUND=255
   typeset -g POWERLEVEL9K_STATUS_OK_PIPE_BACKGROUND=227
 
   # Status when it's just an error code (e.g., '1'). No need to show it if prompt_char is enabled as
   # it will signify error by turning red.
   typeset -g POWERLEVEL9K_STATUS_ERROR=true
   typeset -g POWERLEVEL9K_STATUS_ERROR_VISUAL_IDENTIFIER_EXPANSION='✘'
-  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=15
+  typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=255
   typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=9
 
   # Status when the last command was terminated by a signal.
@@ -541,7 +541,7 @@
 
   ###################[ command_execution_time: duration of the last command ]###################
   # Execution time color.
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=15
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=255
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=210
   # Show duration of the last command if takes at least this many seconds.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=3
@@ -1647,7 +1647,7 @@
 
   ####################################[ time: current time ]####################################
   # Current time color.
-  typeset -g POWERLEVEL9K_TIME_FOREGROUND=15
+  typeset -g POWERLEVEL9K_TIME_FOREGROUND=255
   typeset -g POWERLEVEL9K_TIME_BACKGROUND=210
   # Format for the current time: 09:51:02. See `man 3 strftime`.
   typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
