@@ -464,8 +464,8 @@
   
   # BACKGROUNDS VCS 
   typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND=83
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=11
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=9
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=226
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND=196
 
   # Don't count the number of unstaged, untracked and conflicted files in Git repositories with
   # more than this many files in the index. Negative value means infinity.
